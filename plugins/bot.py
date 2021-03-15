@@ -90,7 +90,7 @@ async def lol(ult):
     )
     if pic is None:
         await ult.edit(als)
-    elif pic is not None and "telegra" in pic:
+    elif pic is not None and "telegram" in pic:
         await ult.delete()
         await ult.reply(als, file=pic)
     else:
